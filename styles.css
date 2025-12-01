@@ -1,0 +1,111 @@
+/* Global styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333333;
+}
+
+/* Layout container */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: #ffffff;
+}
+
+/* Header & portrait */
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background-color: #283593;
+    color: #ffffff;
+}
+
+.portrait-wrapper {
+    flex-shrink: 0;
+}
+
+.portrait {
+  width: 150px;        /* controls HOW BIG the picture appears */
+  height: 150px;       /* keeps it a perfect circle */
+  object-fit: cover;   /* prevents stretching */
+  border-radius: 50%;  /* makes it round */
+  border: 3px solid #ffffff;
+}
+
+
+.intro-text h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.tagline {
+    margin-top: 0.25rem;
+    font-size: 0.95rem;
+}
+
+/* Section header styles */
+h2 {
+    border-bottom: 2px solid #eeeeee;
+    padding-bottom: 0.25rem;
+    margin-top: 1.5rem;
+    color: #283593;
+}
+
+/* Lists */
+ul {
+    padding-left: 1.25rem;
+}
+
+.date-range {
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.description {
+    display: block;
+    margin-top: 0.25rem;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+}
+
+thead {
+    background-color: #e3f2fd;
+}
+
+th, td {
+    border: 1px solid #bbbbbb;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+/* Bold table headers as required */
+th {
+    font-weight: bold;
+}
+
+/* Alternate row color for readability */
+tbody tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+/* Footer */
+.site-footer {
+    text-align: center;
+    padding: 0.75rem;
+    background-color: #283593;
+    color: #ffffff;
+    font-size: 0.85rem;
+}
