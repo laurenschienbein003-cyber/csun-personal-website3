@@ -32,10 +32,10 @@ main {
 }
 
 .portrait {
-  width: 150px;        /* controls HOW BIG the picture appears */
-  height: 150px;       /* keeps it a perfect circle */
-  object-fit: cover;   /* prevents stretching */
-  border-radius: 50%;  /* makes it round */
+  width: 150px;        
+  height: 150px;       
+  object-fit: cover;   
+  border-radius: 50%;  
   border: 3px solid #ffffff;
 }
 
